@@ -14,6 +14,13 @@
 		31B95FC529AFF10400A4EF15 /* JustWalkingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B95FC429AFF10400A4EF15 /* JustWalkingAppTests.swift */; };
 		31B95FCF29AFF10400A4EF15 /* JustWalkingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B95FCE29AFF10400A4EF15 /* JustWalkingAppUITests.swift */; };
 		31B95FD129AFF10400A4EF15 /* JustWalkingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B95FD029AFF10400A4EF15 /* JustWalkingAppUITestsLaunchTests.swift */; };
+		31B95FE429AFFAB200A4EF15 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B95FE329AFFAB200A4EF15 /* WidgetKit.framework */; };
+		31B95FE629AFFAB200A4EF15 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B95FE529AFFAB200A4EF15 /* SwiftUI.framework */; };
+		31B95FE929AFFAB200A4EF15 /* JustWalkingBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B95FE829AFFAB200A4EF15 /* JustWalkingBundle.swift */; };
+		31B95FEB29AFFAB200A4EF15 /* JustWalkingLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B95FEA29AFFAB200A4EF15 /* JustWalkingLiveActivity.swift */; };
+		31B95FED29AFFAB200A4EF15 /* JustWalking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B95FEC29AFFAB200A4EF15 /* JustWalking.swift */; };
+		31B95FEF29AFFAB300A4EF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B95FEE29AFFAB300A4EF15 /* Assets.xcassets */; };
+		31B95FF329AFFAB300A4EF15 /* JustWalkingExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 31B95FE129AFFAB200A4EF15 /* JustWalkingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,28 @@
 			remoteGlobalIDString = 31B95FAF29AFF10300A4EF15;
 			remoteInfo = JustWalkingApp;
 		};
+		31B95FF129AFFAB300A4EF15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31B95FA829AFF10300A4EF15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B95FE029AFFAB200A4EF15;
+			remoteInfo = JustWalkingExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31B95FF729AFFAB300A4EF15 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31B95FF329AFFAB300A4EF15 /* JustWalkingExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		31B95FB029AFF10300A4EF15 /* JustWalkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustWalkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +72,16 @@
 		31B95FCA29AFF10400A4EF15 /* JustWalkingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustWalkingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B95FCE29AFF10400A4EF15 /* JustWalkingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWalkingAppUITests.swift; sourceTree = "<group>"; };
 		31B95FD029AFF10400A4EF15 /* JustWalkingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWalkingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31B95FE129AFFAB200A4EF15 /* JustWalkingExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JustWalkingExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B95FE329AFFAB200A4EF15 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		31B95FE529AFFAB200A4EF15 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		31B95FE829AFFAB200A4EF15 /* JustWalkingBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWalkingBundle.swift; sourceTree = "<group>"; };
+		31B95FEA29AFFAB200A4EF15 /* JustWalkingLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWalkingLiveActivity.swift; sourceTree = "<group>"; };
+		31B95FEC29AFFAB200A4EF15 /* JustWalking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustWalking.swift; sourceTree = "<group>"; };
+		31B95FEE29AFFAB300A4EF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31B95FF029AFFAB300A4EF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B95FF829AFFCCF00A4EF15 /* JustWalkingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JustWalkingApp.entitlements; sourceTree = "<group>"; };
+		31B95FF929AFFD1000A4EF15 /* JustWalkingExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JustWalkingExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +106,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31B95FDE29AFFAB200A4EF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B95FE629AFFAB200A4EF15 /* SwiftUI.framework in Frameworks */,
+				31B95FE429AFFAB200A4EF15 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		31B95FA729AFF10300A4EF15 = {
 			isa = PBXGroup;
 			children = (
+				31B95FF929AFFD1000A4EF15 /* JustWalkingExtension.entitlements */,
 				31B95FB229AFF10300A4EF15 /* JustWalkingApp */,
 				31B95FC329AFF10400A4EF15 /* JustWalkingAppTests */,
 				31B95FCD29AFF10400A4EF15 /* JustWalkingAppUITests */,
+				31B95FE729AFFAB200A4EF15 /* JustWalking */,
+				31B95FE229AFFAB200A4EF15 /* Frameworks */,
 				31B95FB129AFF10300A4EF15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +137,7 @@
 				31B95FB029AFF10300A4EF15 /* JustWalkingApp.app */,
 				31B95FC029AFF10400A4EF15 /* JustWalkingAppTests.xctest */,
 				31B95FCA29AFF10400A4EF15 /* JustWalkingAppUITests.xctest */,
+				31B95FE129AFFAB200A4EF15 /* JustWalkingExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +145,7 @@
 		31B95FB229AFF10300A4EF15 /* JustWalkingApp */ = {
 			isa = PBXGroup;
 			children = (
+				31B95FF829AFFCCF00A4EF15 /* JustWalkingApp.entitlements */,
 				31B95FB329AFF10300A4EF15 /* JustWalkingAppApp.swift */,
 				31B95FB529AFF10300A4EF15 /* ContentView.swift */,
 				31B95FB729AFF10400A4EF15 /* Assets.xcassets */,
@@ -127,6 +179,27 @@
 			path = JustWalkingAppUITests;
 			sourceTree = "<group>";
 		};
+		31B95FE229AFFAB200A4EF15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31B95FE329AFFAB200A4EF15 /* WidgetKit.framework */,
+				31B95FE529AFFAB200A4EF15 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31B95FE729AFFAB200A4EF15 /* JustWalking */ = {
+			isa = PBXGroup;
+			children = (
+				31B95FE829AFFAB200A4EF15 /* JustWalkingBundle.swift */,
+				31B95FEA29AFFAB200A4EF15 /* JustWalkingLiveActivity.swift */,
+				31B95FEC29AFFAB200A4EF15 /* JustWalking.swift */,
+				31B95FEE29AFFAB300A4EF15 /* Assets.xcassets */,
+				31B95FF029AFFAB300A4EF15 /* Info.plist */,
+			);
+			path = JustWalking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +210,12 @@
 				31B95FAC29AFF10300A4EF15 /* Sources */,
 				31B95FAD29AFF10300A4EF15 /* Frameworks */,
 				31B95FAE29AFF10300A4EF15 /* Resources */,
+				31B95FF729AFFAB300A4EF15 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				31B95FF229AFFAB300A4EF15 /* PBXTargetDependency */,
 			);
 			name = JustWalkingApp;
 			productName = JustWalkingApp;
@@ -183,6 +258,23 @@
 			productReference = 31B95FCA29AFF10400A4EF15 /* JustWalkingAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		31B95FE029AFFAB200A4EF15 /* JustWalkingExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B95FF429AFFAB300A4EF15 /* Build configuration list for PBXNativeTarget "JustWalkingExtension" */;
+			buildPhases = (
+				31B95FDD29AFFAB200A4EF15 /* Sources */,
+				31B95FDE29AFFAB200A4EF15 /* Frameworks */,
+				31B95FDF29AFFAB200A4EF15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustWalkingExtension;
+			productName = JustWalkingExtension;
+			productReference = 31B95FE129AFFAB200A4EF15 /* JustWalkingExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +296,9 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 31B95FAF29AFF10300A4EF15;
 					};
+					31B95FE029AFFAB200A4EF15 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = 31B95FAB29AFF10300A4EF15 /* Build configuration list for PBXProject "JustWalkingApp" */;
@@ -222,6 +317,7 @@
 				31B95FAF29AFF10300A4EF15 /* JustWalkingApp */,
 				31B95FBF29AFF10400A4EF15 /* JustWalkingAppTests */,
 				31B95FC929AFF10400A4EF15 /* JustWalkingAppUITests */,
+				31B95FE029AFFAB200A4EF15 /* JustWalkingExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +343,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B95FDF29AFFAB200A4EF15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B95FEF29AFFAB300A4EF15 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +383,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31B95FDD29AFFAB200A4EF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B95FED29AFFAB200A4EF15 /* JustWalking.swift in Sources */,
+				31B95FEB29AFFAB200A4EF15 /* JustWalkingLiveActivity.swift in Sources */,
+				31B95FE929AFFAB200A4EF15 /* JustWalkingBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +405,11 @@
 			isa = PBXTargetDependency;
 			target = 31B95FAF29AFF10300A4EF15 /* JustWalkingApp */;
 			targetProxy = 31B95FCB29AFF10400A4EF15 /* PBXContainerItemProxy */;
+		};
+		31B95FF229AFFAB300A4EF15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B95FE029AFFAB200A4EF15 /* JustWalkingExtension */;
+			targetProxy = 31B95FF129AFFAB300A4EF15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,13 +531,17 @@
 		31B95FD529AFF10400A4EF15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustWalkingApp/JustWalkingApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JustWalkingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 476QK54UU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Access your steps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -429,7 +552,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.itguy.JustWalkingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.JustWalkingApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,13 +563,17 @@
 		31B95FD629AFF10400A4EF15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JustWalkingApp/JustWalkingApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JustWalkingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 476QK54UU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Access your steps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,7 +584,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.itguy.JustWalkingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.JustWalkingApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -537,6 +664,62 @@
 			};
 			name = Release;
 		};
+		31B95FF529AFFAB300A4EF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = JustWalkingExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 476QK54UU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustWalking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JustWalking;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.JustWalkingApp.JustWalking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31B95FF629AFFAB300A4EF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = JustWalkingExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 476QK54UU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustWalking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JustWalking;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-guy.JustWalkingApp.JustWalking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,6 +755,15 @@
 			buildConfigurations = (
 				31B95FDB29AFF10400A4EF15 /* Debug */,
 				31B95FDC29AFF10400A4EF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B95FF429AFFAB300A4EF15 /* Build configuration list for PBXNativeTarget "JustWalkingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B95FF529AFFAB300A4EF15 /* Debug */,
+				31B95FF629AFFAB300A4EF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
